@@ -2,6 +2,7 @@ pageextension 50124 MycustomerList extends "Customer List"
 {
     trigger OnOpenPage();
     begin
+        //This is report
         report.Run(Report::Customers_WordReport);
     end;
 }
