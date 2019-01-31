@@ -15,6 +15,7 @@ report 50124 Customers_WordReport
     {
         dataitem(Customer; Customer)
         {
+            //This is layout
             column(Name; Name)
             {
             }
